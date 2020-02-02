@@ -144,11 +144,6 @@ GEM
     addressable (2.7.0)
       public_suffix (>= 2.0.2, < 5.0)
     backports (3.15.0)
-    browserstack-automate (0.1.0)
-      browserstack-local (~> 1.2)
-      curb (~> 0)
-      selenium-webdriver
-    browserstack-local (1.3.0)
     builder (3.2.3)
     capybara (3.29.0)
       addressable
@@ -165,7 +160,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  browserstack-automate
   capybara
   chunky_png
   cucumber
